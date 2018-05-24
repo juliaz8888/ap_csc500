@@ -12,7 +12,7 @@ html {
   height: 100%;
   overflow-y: scroll;
   overflow-x: hidden;
-  font-family: "Georgia";
+  font-family: "Verdana";
 }
 
 #body {
@@ -30,19 +30,40 @@ html {
   padding-bottom: 10px;
   width: 100%;
   text-align: center;
+}
 
+#app-icon {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 100%;
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+h4 {
+  text-align: center;
 }
 
 body {
   color: #fff;
   margin: 0;
   padding: 0;
-  perspective: 1px;
   transform-style: preserve-3d;
   height: 100%;
   overflow-y: scroll;
   overflow-x: hidden;
-  font-family: "Georgia";
+  font-family: "Verdana";
   background-color: #fff;
 }
 
@@ -77,4 +98,8 @@ header::before {
   transform: translateZ(-1px) scale(2);
   z-index: -1;
   min-height: 100vh;
+}
+
+a {
+  color: rgb(182, 233, 255);
 }
