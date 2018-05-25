@@ -14,6 +14,7 @@ body {
   overflow-x: hidden;
   font-family: "Verdana";
   background-color: #fff;
+  z-index: 1;
 }
 
 header {
@@ -23,6 +24,7 @@ header {
   position: relative;
   transform-style: inherit;
   width: 100vw;
+  z-index: -1;
 }
 
 header h1 {
