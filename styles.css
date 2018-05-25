@@ -1,58 +1,7 @@
+
 html {
   height: 100%;
   overflow: hidden;
-}
-
-#content {
-  color: #fff;
-  margin: 0;
-  padding: 0;
-  perspective: 1px;
-  transform-style: preserve-3d;
-  height: 100%;
-  overflow-y: scroll;
-  overflow-x: hidden;
-  font-family: "Verdana";
-}
-
-#body {
-  /* (8, 54, 91) */
-  background-color: rgb(21,47,96);
-  /* padding: 30px; */
-  padding-left: 25%;
-  padding-right: 25%;
-  padding-top: 40px;
-  padding-bottom: 40px;
-}
-
-#team-photo {
-  padding-top: 10px;
-  padding-bottom: 10px;
-  width: 100%;
-  text-align: center;
-}
-
-#app-icon {
-  padding-top: 10px;
-  padding-bottom: 10px;
-  width: 100%;
-  text-align: center;
-}
-
-h3 {
-  text-align: center;
-}
-
-h2 {
-  text-align: center;
-}
-
-h1 {
-  text-align: center;
-}
-
-h4 {
-  text-align: center;
 }
 
 body {
@@ -102,4 +51,56 @@ header::before {
 
 a {
   color: rgb(182, 233, 255);
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+}
+
+h4 {
+  text-align: center;
+}
+
+#content {
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  perspective: 1px;
+  transform-style: preserve-3d;
+  height: 100%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  font-family: "Verdana";
+}
+
+#body {
+  /* (8, 54, 91) */
+  background-color: rgb(21,47,96);
+  /* padding: 30px; */
+  padding-left: 25%;
+  padding-right: 25%;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+#team-photo {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 100%;
+  text-align: center;
+}
+
+#app-icon {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 100%;
+  text-align: center;
 }
