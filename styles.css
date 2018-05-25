@@ -51,6 +51,7 @@ header::before {
 
 a {
   color: rgb(182, 233, 255);
+  text-decoration: none;
 }
 
 h1 {
@@ -82,13 +83,13 @@ h4 {
 }
 
 #body {
-  /* (8, 54, 91) */
   background-color: rgb(21,47,96);
   /* padding: 30px; */
   padding-left: 25%;
   padding-right: 25%;
   padding-top: 40px;
   padding-bottom: 40px;
+  z-index: 1;
 }
 
 #team-photo {
