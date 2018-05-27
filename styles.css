@@ -13,7 +13,8 @@ body {
   overflow-y: scroll;
   overflow-x: hidden;
   font-family: "Verdana";
-  background-color: #fff;
+  /* background-color: #fff; */
+  background-color: rgb(21,47,96);
   z-index: 1;
 }
 
@@ -24,7 +25,42 @@ header {
   position: relative;
   transform-style: inherit;
   width: 100vw;
-  z-index: -1;
+}
+
+@media all and (-webkit-min-device-pixel-ratio:0) and (min-resolution: .001dpcm) {
+  header {
+    box-sizing: border-box;
+    min-height: 100vh;
+    padding: 30vw 0 5vw;
+    position: relative;
+    transform-style: inherit;
+    width: 100vw;
+  	z-index: -1;
+  }
+}
+
+@supports (-moz-appearance:none) {
+  header {
+    box-sizing: border-box;
+    min-height: 100vh;
+    padding: 30vw 0 5vw;
+    position: relative;
+    transform-style: inherit;
+    width: 100vw;
+    z-index: -1;
+  }
+}
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  header {
+    box-sizing: border-box;
+    min-height: 100vh;
+    padding: 30vw 0 5vw;
+    position: relative;
+    transform-style: inherit;
+    width: 100vw;
+    z-index: -1;
+  }
 }
 
 header h1 {
@@ -105,5 +141,13 @@ h4 {
   padding-top: 10px;
   padding-bottom: 10px;
   width: 100%;
+  text-align: center;
+}
+
+#pitch-video {
+  text-align: center;
+}
+
+#demo-video {
   text-align: center;
 }
