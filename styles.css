@@ -1,9 +1,11 @@
+/* Julia Zhu, CSC500 */
 
 html {
   height: 100%;
   overflow: hidden;
 }
 
+/* formats the body, including the parallax scrolling */
 body {
   color: #fff;
   margin: 0;
@@ -13,11 +15,11 @@ body {
   overflow-y: scroll;
   overflow-x: hidden;
   font-family: "Verdana";
-  /* background-color: #fff; */
   background-color: rgb(21,47,96);
   z-index: 1;
 }
 
+/* formats the header for Safari and other browsers not listed below*/
 header {
   box-sizing: border-box;
   min-height: 100vh;
@@ -27,6 +29,7 @@ header {
   width: 100vw;
 }
 
+/* formats the header for Chrome */
 @media all and (-webkit-min-device-pixel-ratio:0) and (min-resolution: .001dpcm) {
   header {
     box-sizing: border-box;
@@ -39,6 +42,7 @@ header {
   }
 }
 
+/* formats the header for Mozilla Firefox */
 @supports (-moz-appearance:none) {
   header {
     box-sizing: border-box;
@@ -51,6 +55,7 @@ header {
   }
 }
 
+/* formats the header for Internet Explorer */
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
   header {
     box-sizing: border-box;
@@ -63,14 +68,17 @@ header {
   }
 }
 
+/* parallax helper */
 header h1 {
   margin-top: -100px;
 }
 
+/* parallax helper */
 header, header:before {
   background: 50% 50% / cover;
 }
 
+/* parallax helper and sets up the large image when the website loads*/
 header::before {
   bottom: 0;
   content: "";
@@ -87,6 +95,7 @@ header::before {
   min-height: 100vh;
 }
 
+/* overrides the automatic formatting for hyerlinks */
 a {
   color: rgb(182, 233, 255);
   text-decoration: none;
@@ -108,6 +117,7 @@ h4 {
   text-align: center;
 }
 
+/* formats most of the text and scrolling */
 #content {
   color: #fff;
   margin: 0;
@@ -130,6 +140,7 @@ h4 {
   z-index: 1;
 }
 
+/* formats the photos and videos */
 #team-photo {
   padding-top: 10px;
   padding-bottom: 10px;
